@@ -21,4 +21,11 @@ public class ColourfulNumber_5 {
     public static void main(String[] args) {
 
     }
+
+    int cnt_one = 0;
+    int n=A.length();
+        for (int i = 0; i < n; i++) {
+        if (A.charAt(i) == '1')
+            cnt_one++;
+    }
 }
