@@ -12,6 +12,7 @@ public class SmallestPrimeFactor {
         for(int i=2;i<=n;i++){
             spf[i] = i;
         }
+
         for(int i=2;i*i<=n;i++){
             if(spf[i] == i){
                 for(int j=i*i;j<=n;j=j+i){
@@ -20,6 +21,9 @@ public class SmallestPrimeFactor {
                     }
                 }
             }
+        }
+        for(Integer i : spf){
+            System.out.print(i+" ");
         }
         return spf;
     }

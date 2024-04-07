@@ -1,4 +1,4 @@
-package com.prefixsum;
+ package com.prefixsum;
 
 public class ConstructPrefixSumArray_1 {
     public static void main(String[] args) {
