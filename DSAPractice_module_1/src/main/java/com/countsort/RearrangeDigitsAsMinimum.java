@@ -3,7 +3,7 @@ package com.countsort;
 public class RearrangeDigitsAsMinimum {
     public static void main(String[] args) {
         //int[] arr = {6,7,8,2,1,5,6,7,8,5,6,7};//output: 1 2 5 5 6 6 6 7 7 7 8 8
-        int[] arr = {0,1,1,1,1,1,0,0,0,1,1,0,1,1};
+        int[] arr = {0,1,1,1,1,2,1,0,2,0,0,1,1,0,1,1};
         minDigits(arr);
     }
     public static int[] minDigits(int[] arr){

@@ -10,9 +10,12 @@ Your solution should have a time complexity of O(log(N)).
  */
 public class AssignmentFindIndexProblem {
     public static void main(String[] args) {
-
+        int[] arr = {1,1,2,2,2,3,3,4,5,6};
+        int B=2;
+        int val = searchInsert(arr, B);
+        System.out.println(val);
     }
-    public int searchInsert(int[] A, int B) {
+    public static int searchInsert(int[] A, int B) {
         int n = A.length;
         int ans = n;
         int leftSide = 0;

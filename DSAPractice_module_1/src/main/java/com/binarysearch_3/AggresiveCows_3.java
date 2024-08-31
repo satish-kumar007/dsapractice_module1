@@ -41,7 +41,7 @@ public class AggresiveCows_3 {
     }
 
     public static void main(String[] args) {
-        int[] A = {5,17,100,11};
+        int[] A = {4,2,3};
         int B = 2;
         int x = solve(A,B);
         System.out.println(x);
